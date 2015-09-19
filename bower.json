@@ -1,0 +1,25 @@
+{
+  "name": "betsol-ng-paginator",
+  "description": "Paginator for Angular.js",
+  "version": "0.0.0",
+  "main": "dist/betsol-ng-paginator.js",
+  "ignore": [
+    "src",
+    "test",
+    ".*",
+    "gulpfile.js",
+    "karma.conf.js",
+    "package.json"
+  ],
+  "devDependencies": {
+    "angular": "~1",
+    "angular-mocks": "~1.4.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/betsol/ng-paginator.git"
+  },
+  "keywords": [
+    "angular", "angular.js", "pagination", "paginator"
+  ]
+}
