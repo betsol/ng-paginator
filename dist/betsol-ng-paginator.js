@@ -21,6 +21,7 @@
         var offset = 0;
         var itemsPerPage = null;
         var criteria = {};
+        var sortParams = {};
         var total = null;
         var hasMoreItems = null;
         var clearPending = false;
@@ -46,6 +47,13 @@
               softReset();
             }
             criteria = newCriteria;
+            return this;
+          },
+          setSorting: function (newSortParams) {
+            if (!angular.equals(sortParams, newSortParams)) {
+              softReset();
+            }
+            sortParams = newSortParams;
             return this;
           },
           first: function () {
@@ -114,7 +122,7 @@
             offset: offset
           });
 
-          return requestInitiator(criteria, itemsPerPage, offset).then(function (response) {
+          return requestInitiator(criteria, itemsPerPage, offset, sortParams).then(function (response) {
 
             // Checking if response contains data.
             if ('undefined' === typeof response.data) {
