@@ -52,6 +52,7 @@
             if (loading) {
               return null;
             }
+            hasMoreItems = null;
             softReset();
             return loadAndAdvance();
           },

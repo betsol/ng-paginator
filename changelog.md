@@ -1,5 +1,11 @@
 # betsol-ng-paginator changelog
 
+## Version 0.0.2
+(11 Nov 2015)
+
+- Fixed an issue when `first()` method wasn't loading the data from the server when `hasMoreData` was set to `false`.
+
+
 ## Version 0.0.1
 (25 Oct 2015)
 
