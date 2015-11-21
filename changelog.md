@@ -1,5 +1,12 @@
 # betsol-ng-paginator changelog
 
+
+## Version 0.0.3
+(21 Nov 2015)
+
+- Fixed minor issue with sort params
+
+
 ## Version 0.0.2
 (11 Nov 2015)
 

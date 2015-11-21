@@ -18,7 +18,7 @@ like `first()`, `next()`, `hasMoreItems()` etc.
 
 ### Install library with NPM
 
-`npm install --save betsol-ng-paginator`
+`npm i --save betsol-ng-paginator`
 
 
 ### Add library to your page
@@ -80,7 +80,7 @@ Fork, clone, create a feature branch, implement your feature, cover it with test
 
 Run:
 
-- `npm install && bower install` to initialize the project
+- `npm i && bower install` to initialize the project
 - `gulp build` to re-build the dist files
 - `gulp test` or `karma start` to test the code
 
