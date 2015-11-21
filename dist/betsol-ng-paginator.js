@@ -1,6 +1,6 @@
 /**
  * betsol-ng-paginator - Paginator for Angular.js
- * @version v0.0.1
+ * @version v0.0.2
  * @link https://github.com/betsol/ng-paginator
  * @license MIT
  *
@@ -21,7 +21,7 @@
         var offset = 0;
         var itemsPerPage = null;
         var criteria = {};
-        var sortParams = {};
+        var sortParams = null;
         var total = null;
         var hasMoreItems = null;
         var clearPending = false;
@@ -123,7 +123,8 @@
             offset: offset
           });
 
-          return requestInitiator(criteria, itemsPerPage, offset, sortParams).then(function (response) {
+          return requestInitiator(criteria, itemsPerPage, offset, sortParams)
+            .then(function (response) {
 
             // Checking if response contains data.
             if ('undefined' === typeof response.data) {
