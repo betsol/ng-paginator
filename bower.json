@@ -1,7 +1,7 @@
 {
   "name": "betsol-ng-paginator",
   "description": "Paginator for Angular.js",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "main": "dist/betsol-ng-paginator.js",
   "ignore": [
     "src",

@@ -1,6 +1,12 @@
 # betsol-ng-paginator changelog
 
 
+## Version 0.1.0
+(18 Dec 2015)
+
+- Total number of items now can be retrieved
+
+
 ## Version 0.0.3
 (21 Nov 2015)
 
