@@ -72,6 +72,9 @@
           getItemsCount: function () {
             return this.list.length;
           },
+          getTotalCount: function () {
+            return total;
+          },
           isEmptyResult: function () {
             return (initialized && !loading && 0 == this.list.length);
           }
