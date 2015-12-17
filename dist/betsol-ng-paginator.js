@@ -1,6 +1,6 @@
 /**
  * betsol-ng-paginator - Paginator for Angular.js
- * @version v0.0.3
+ * @version v0.1.0
  * @link https://github.com/betsol/ng-paginator
  * @license MIT
  *
@@ -79,6 +79,9 @@
           },
           getItemsCount: function () {
             return this.list.length;
+          },
+          getTotalCount: function () {
+            return total;
           },
           isEmptyResult: function () {
             return (initialized && !loading && 0 == this.list.length);
