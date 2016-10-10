@@ -34,11 +34,20 @@
             itemsPerPage = newItemsPerPage;
             return this;
           },
+          getCriteria: function () {
+            return criteria;
+          },
           setCriteria: function (newCriteria) {
             if (!angular.equals(criteria, newCriteria)) {
               softReset();
             }
             criteria = newCriteria;
+            return this;
+          },
+          updateCriteria: function (newCriteria) {
+            this.setCriteria(
+              angular.extend({}, criteria, newCriteria)
+            );
             return this;
           },
           setSorting: function (newSortParams) {

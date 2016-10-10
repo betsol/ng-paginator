@@ -1,6 +1,12 @@
 # betsol-ng-paginator changelog
 
 
+## Version 0.2.0
+(10 Oct 2016)
+
+- Extended criteria API
+
+
 ## Version 0.1.0
 (18 Dec 2015)
 
